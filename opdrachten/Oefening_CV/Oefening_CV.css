@@ -1,0 +1,30 @@
+html{
+    background: url(assets/interlaced.png);
+    font-family: "Century Gothic";
+}
+h1{
+    color: maroon;
+}
+h2{
+    color: dimgray;
+}
+.opmaak{
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.opmaak thead{
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+.opmaak td{
+    border: 2px solid black;
+}
+.opmaak tbody tr:nth-child(even){
+    background-color: indianred;
+    text-align: left;
+}
+.opmaak tbody tr:nth-child(odd){
+    background-color: #da8888;
+    text-align: left;
+}
